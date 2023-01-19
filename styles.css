@@ -1,5 +1,7 @@
 *{
     background-color: rgb(206, 206, 206);
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
 :root{
@@ -9,8 +11,14 @@
 
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 main{
-    margin-top: 5em;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -24,13 +32,9 @@ a{
 
 
 .btn {
-   font-weight: bold;
-   font-family: sans-serif;
    border: none;
    border-radius: var(--btn_radius);
    background: gray;
-
-
   }
 
   .button_top {
